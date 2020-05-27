@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <script src="resources/js/script.js"></script> 
+  </head>
+  <body onload="showSlides()">
+
+<!--START BANNER-->
+<div id="page-wrapper">
+  <header id="header">
+    <div id="logo">
+      <h2>logo img</h2>
+    </div>
+    <div id="title">
+      <span>Grafikado</span>
+    </div>
+    <!--START NAV-->
+    <nav id="navbar">
+      <ul class="nav-list">
+        <span>
+          <a class="nav-link" href="#welcome-section">About</a>
+        </span>
+        <span>
+          <a class="nav-link" href="#prices">Prices</a>
+        </span>
+        <span>
+          <a class="nav-link" href="#contact">Contact</a>
+        </span>
+      </ul>
+    </nav>
+    <!--END NAV-->
+  </header>
+</div>
+<!--END BANNER-->
+
+<!--START SLIDESHOW SECTION-->
+<div class="flex-container">
+  <div class="flex-content">
+    <section id="welcome-section">
+
+     <h2 class="welcome-section-header">Welcome to Grafikado</h2>
+     <span><i>We love making beautiful things.</i></span>
+
+    </section>
+  </div>
+</div>
+<section class="slideshow-container">
+
+    <!--Full-width images with number and caption text-->
+    <div class="slider">
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="https://static.wixstatic.com/media/1199cb_7a4f5e1ede1b419aa931c770d8085250~mv2.jpg/v1/fill/w_1024,h_683,al_c,q_90/1199cb_7a4f5e1ede1b419aa931c770d8085250~mv2.webp" style="width:100%">
+        <div class="text">NEKONVENČNÍ KAMPAŇ PRO EKOLOGICKOU INICIATIVU</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="https://static.wixstatic.com/media/1199cb_ec507bf7889a49e2b41f1f4d0e2f4b8e~mv2.jpg/v1/fill/w_1024,h_683,al_c,q_90/1199cb_ec507bf7889a49e2b41f1f4d0e2f4b8e~mv2.webp" style="width:100%">
+        <div class="text">KOMIXOVÁ KAMPAŇ:
+BEZPEČNÁ JÍZDA V AUTĚ</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="https://static.wixstatic.com/media/1199cb_673f537482914448890182c06a7804ad~mv2.jpg/v1/fill/w_940,h_768,al_c,q_90/1199cb_673f537482914448890182c06a7804ad~mv2.webp" style="width:100%">
+        <div class="text">LOGO: PROJEKT HUDEBNÍ SOS</div>
+    </div>
+    </div>
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</section>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<!--END SLIDESHOW SECTION-->
+<!--START PRICES SECTION-->
+
+<div class="flex-container">
+<div class="flex-content">
+<section id="prices" class="prices-section">
+  <h2 class="prices-section-header">Information about my pricing:</h2>
+  
+  <div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+          est laborum.</p>
+          <br>
+  </div>
+
+</section>
+</div>
+</div>
+  
+<!-- END PROJECTS SECTION -->
+<br>
+<!-- START CONTACT SECTION -->
+<div class='flex-container'>
+    <section id="contact" class="flex-content">
+    <div>
+    <h2>Here is how to contact me:</h2>
+    <a
+      href="..."
+      target="_blank"
+      class="btn contact-details"
+       >Facebook</a>
+    <a href="mailto:..." class="btn contact-details"
+      >Email</a
+    >
+    <a href="https://www.linkedin.com/in/dylan-stringer/" class="btn contact-details">Linkedin</a>
+    </div>
+    </section>
+</div>
+
+</body>
+</html>
