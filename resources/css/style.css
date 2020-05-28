@@ -38,6 +38,10 @@ body {
     width: 100%;
 }
 
+h2 {
+  text-align: center;
+}
+
 /* nav section */
 
 #title {
@@ -216,4 +220,49 @@ p {
   margin: 0 auto;
 }
 
+.prices-section{
+  display: flex;
+  justify-content: center;
+}
 
+#price-item {
+  height: 200px;
+  width: 150px;
+  border: 2px solid black;
+  padding: 10px 20px;
+  margin: 0 30px;
+  flex-direction: row;
+  background: var(--main-green)
+}
+
+#price-pic {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+button {
+  padding: 10px;
+  margin: 35px;
+  background-color: var(--main-yellow);
+}
+
+form {
+  padding: 10px;
+  margin: 10px;
+  width: 50%; 
+}
+
+.form-control{
+  background-color: var(--main-green);
+  color: black;
+}
+
+.form-control:focus {
+  border-color: var(--main-yellow);
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+::placeholder {
+  color: white;
+}

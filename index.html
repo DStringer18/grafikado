@@ -83,19 +83,39 @@ BEZPEČNÁ JÍZDA V AUTĚ</div>
 <!--END SLIDESHOW SECTION-->
 <!--START PRICES SECTION-->
 
-<div class="flex-container">
-<div class="flex-content">
-<section id="prices" class="prices-section">
+
+<section id="prices">
   <h2 class="prices-section-header">Information about my pricing:</h2>
   
   <div>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
-          est laborum.</p>
+          ut labore et dolore magna aliqua. </p>
           <br>
+<div class="flex-container">
+  <div class="flex-content">
+    <span class="prices-section">
+      <box id="price-item">
+        <h3>Book Binding</h3>
+        <h5>~Price~</h5>
+        <img id="price-pic" src="https://www.pequotlibrary.org/wp-content/uploads/2019/11/book-binding.jpg" alt="book binding image">
+      </box>
+      <box id="price-item">
+        <h3>Type Setting</h3>
+        <h5>~Price~</h5>
+        <img id="price-pic" src="https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2019/05/3-90340882-type-in-the-digital-era-is-a-mess.jpg" alt="type setting image">
+      </box>
+      <box id="price-item">
+        <h3>Logo Design</h3>
+        <h5>~Price~</h5>
+        <img id="price-pic" src="https://1.bp.blogspot.com/-gR9eqPgBWtw/VJxBgJ3Q46I/AAAAAAAAAI4/iuefiFq9WMA/s1600/0.jpg" alt="type setting image">
+      </box>
+    </span>
+      <button>
+        <h2>More...</h2>
+      </button>
+    
+    <span></span>
+    <span></span>
   </div>
 
 </section>
@@ -105,22 +125,39 @@ BEZPEČNÁ JÍZDA V AUTĚ</div>
 <!-- END PROJECTS SECTION -->
 <br>
 <!-- START CONTACT SECTION -->
-<div class='flex-container'>
-    <section id="contact" class="flex-content">
-    <div>
-    <h2>Here is how to contact me:</h2>
-    <a
-      href="..."
-      target="_blank"
-      class="btn contact-details"
-       >Facebook</a>
-    <a href="mailto:..." class="btn contact-details"
-      >Email</a
-    >
-    <a href="https://www.linkedin.com/in/dylan-stringer/" class="btn contact-details">Linkedin</a>
+<div>
+  <section id="contact">
+    
+  <h2>Tell us what you need:</h2>
+  <div class="flex-container">
+
+    <form method="POST" action="submission.html" class="flex-content">
+      <div class="form-group"> 
+      <input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
+      <br/>
+      <input type="text" name="email" id="email" class="form-control" placeholder="Email" required>
+      <br/>
+      <input type="text" name="telephone" id="telephone" class="form-control" placeholder="telephone">
+      <br/>
+          <br>
+          <textarea id="message" name="message" class="form-control" rows="3" cols="40" placeholder="Type your message here..." required></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div>
+      </form>
     </div>
     </section>
-</div>
 
+</div>
+    
+
+<footer>
+  <a href="..." target="_blank" class="btn contact-details">Facebook</a>
+  <a href="mailto:..." class="btn contact-details">Email</a>
+  <a href="https://www.linkedin.com/in/dylan-stringer/" class="btn contact-details">Linkedin</a>
+</footer>
 </body>
 </html>
